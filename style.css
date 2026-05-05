@@ -96,7 +96,7 @@ h2 {
     position: relative;
 }
 
-/* 🔵 underline style */
+/* underline style */
 h2::after {
     content: "";
     width: 60px;
@@ -158,7 +158,7 @@ h2 {
     }
 }
 
-/* 📦 Filter container */
+/* Filter container */
 .filters {
     display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-/* 🔘 Filter buttons */
+/*  Filter buttons */
 .filters button {
     padding: 10px 18px;
     border: none;
@@ -179,14 +179,14 @@ h2 {
     transition: all 0.3s ease;
 }
 
-/* ✨ Hover effect */
+/* Hover effect */
 .filters button:hover {
     background: #4cafef;
     color: white;
     transform: scale(1.05);
 }
 
-/* 🔥 Active button (optional) */
+/* Active button (optional) */
 .filters button.active {
     background: #4cafef;
     color: white;
@@ -210,7 +210,7 @@ h2 {
 }
 
 /* input lable*/
-/* 📦 Input Box Container */
+
 .input-box {
     background: #f5faff;
     padding: 20px;
@@ -222,7 +222,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* ✏ Inputs + Select */
+/* Inputs + Select */
 .input-box input,
 .input-box select {
     padding: 10px 12px;
@@ -234,24 +234,24 @@ h2 {
     transition: 0.3s;
 }
 
-/* ✨ Focus effect */
+/*  Focus effect */
 .input-box input:focus,
 .input-box select:focus {
     border-color: #4cafef;
     box-shadow: 0 0 6px rgba(76, 175, 239, 0.3);
 }
 
-/* 📅 DateTime input special */
+/*  DateTime input special */
 input[type="datetime-local"] {
     color: #333;
 }
 
-/* 📝 Placeholder color */
+/*  Placeholder color */
 .input-box input::placeholder {
     color: #999;
 }
 
-/* 📱 Responsive (Mobile) */
+/* Responsive (Mobile) */
 @media (max-width: 600px) {
     .input-box {
         padding: 15px;
@@ -275,14 +275,14 @@ input[type="datetime-local"] {
 }
 
 
-/* 🌈 Background page look */
+/* Background page look */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(120deg, #e0f7fa, #f1f8ff);
 }
 
-/* 📦 Welcome Box */
+/*  Welcome Box */
 .welcome-box {
     text-align: center;
     max-width: 500px;
@@ -294,7 +294,7 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* 🏷 Heading */
+/*  Heading */
 .welcome-box h1 {
     font-size: 40px;
     color: #4cafef;
@@ -303,14 +303,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* 📝 Paragraph */
+/* Paragraph */
 .welcome-box p {
     font-size: 18px;
     color: #555;
     margin-bottom: 25px;
 }
 
-/* 🔘 Start Button */
+/* Start Button */
 .start-btn {
     background: linear-gradient(90deg, #4cafef, #00c6ff);
     color: white;
@@ -323,13 +323,13 @@ body {
     box-shadow: 0 6px 15px rgba(76,175,239,0.3);
 }
 
-/* ✨ Hover effect */
+/*  Hover effect */
 .start-btn:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 20px rgba(76,175,239,0.5);
 }
 
-/* 🎬 Animation */
+/* Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
