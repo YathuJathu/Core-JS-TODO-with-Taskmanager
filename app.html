@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Task Manager</h2>
+
+    <div class="input-box">
+        <input type="text" id="title" placeholder="Task Title">
+        <input type="text" id="note" placeholder="Notes">
+        
+        <select id="priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+
+        <input type="datetime-local" id="time">
+
+        <button class="add-btn" onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="showAll()">All</button>
+        <button onclick="showPending()">Pending</button>
+        <button onclick="showCompleted()">Completed</button>
+    </div>
+
+    <div id="taskList" class="task-list"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
